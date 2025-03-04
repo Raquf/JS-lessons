@@ -134,3 +134,4 @@ function info() {
 console.log(info);
 console.log(typeof info);
 ////
+///
