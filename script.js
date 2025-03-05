@@ -57,81 +57,79 @@ console.log(info); */
 
 //--------------------- Number ---------------------//
 
-const age = 35;
+// const age = 35;
 
-console.log(age);
-console.log(typeof age);
+// console.log(age);
+// console.log(typeof age);
 
 //--------------------- String ---------------------//
 
-const firstName = "Ramey";
+// const firstName = "Ramey";
 
-console.log(firstName);
-console.log(typeof firstName);
+// console.log(firstName);
+// console.log(typeof firstName);
 
 //--------------------- BigInt ---------------------//
 
-const bigNumber = 12345678654323456n;
+// const bigNumber = 12345678654323456n;
 
-console.log(bigNumber);
-console.log(typeof bigNumber);
+// console.log(bigNumber);
+// console.log(typeof bigNumber);
 
 //--------------------- Boolean ---------------------//
 
-const isActive = true;
-const isConfirned = false;
+// const isActive = true;
+// const isConfirned = false;
 
-console.log(isActive, isConfirned);
-console.log(typeof isActive, typeof isConfirned);
+// console.log(isActive, isConfirned);
+// console.log(typeof isActive, typeof isConfirned);
 
 //--------------------- Null ---------------------//
 
-const city = null;
+// const city = null;
 
-console.log(city);
-console.log(typeof city);
+// console.log(city);
+// console.log(typeof city);
 
 //--------------------- Underfined ---------------------//
 
-let isLoading;
+// let isLoading;
 
-console.log(isLoading);
-console.log(typeof isLoading);
+// console.log(isLoading);
+// console.log(typeof isLoading);
 
 //--------------------- Symbol ---------------------//
 
-const id = Symbol("123");
+// const id = Symbol("123");
 
-console.log(id);
-console.log(typeof id);
+// console.log(id);
+// console.log(typeof id);
 
 //--------------------- Reference types ---------------------//
 
 //--------------------- Object ---------------------//
 
-const person = {
-  firstName: "Ramey",
-  lastName: "Mehdiyev",
-  age: 35,
-};
+// const person = {
+//   firstName: "Ramey",
+//   lastName: "Mehdiyev",
+//   age: 35,
+// };
 
-console.log(person);
-console.log(typeof person);
+// console.log(person);
+// console.log(typeof person);
 
 //--------------------- Array ---------------------//
 
-const numArr = [1, 2, 3, 4, 5];
+// const numArr = [1, 2, 3, 4, 5];
 
-console.log(numArr);
-console.log(typeof numArr);
+// console.log(numArr);
+// console.log(typeof numArr);
 
 //--------------------- Function ---------------------//
 
-function info() {
-  return "Hello World!";
-}
+// function info() {
+//   return "Hello World!";
+// }
 
-console.log(info);
-console.log(typeof info);
-////
-///
+// console.log(info);
+// console.log(typeof info);
