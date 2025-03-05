@@ -133,3 +133,88 @@ console.log(info); */
 
 // console.log(info);
 // console.log(typeof info);
+
+//--------------------- Operators ---------------------//
+
+// let lessons = 10;
+
+// lessons = 10 + 10;
+
+// console.log(lessons);
+
+// lessons = 10 - 5;
+
+// console.log(lessons);
+
+// lessons = 10 * 10;
+
+// console.log(lessons);
+
+// lessons = 10 / 10;
+
+// console.log(lessons);
+
+// lessons = 10 % 2; // remainder from division
+
+// console.log(lessons);
+
+//------------------------------------------------------
+
+// let x;
+
+// x = 2 ** 2; // raising to a power
+
+// console.log(x);
+
+// x = 1;
+
+// x = x + 1;
+
+// console.log(x);
+
+// x = x++;
+
+// console.log(x);
+
+// x = ++x;
+
+// console.log(x);
+
+//------------------------------------------------------
+
+// let a = 10;
+
+// // let b = a++; // b = 10, but a = 11
+
+// // console.log(a, b);
+
+// let b = ++a; // b =11, and a = 11;
+
+// console.log(a, b);
+
+//--------------------- Assignment operators ---------------------//
+
+let d = 10;
+
+d += 1; // d = d + 1 - similar option
+
+console.log(d);
+
+//--------------------- Comparison operators ---------------------//
+
+// >, <, >=, <=
+// ==, ===, !=, !==
+
+console.log(1 == 1); // true
+console.log(1 === 1); // true
+console.log(1 == "1"); // true
+console.log(1 === "1"); // false
+console.log(1 != 1); // false
+console.log(1 != "1"); // false
+console.log(1 !== "1"); // true
+
+//--------------------- Сoncatenation ---------------------//
+
+const greeting = "Hey " + "baby";
+
+console.log(greeting);
