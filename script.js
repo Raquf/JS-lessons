@@ -194,27 +194,53 @@ console.log(info); */
 
 //--------------------- Assignment operators ---------------------//
 
-let d = 10;
+// let d = 10;
 
-d += 1; // d = d + 1 - similar option
+// d += 1; // d = d + 1 - similar option
 
-console.log(d);
+// console.log(d);
 
 //--------------------- Comparison operators ---------------------//
 
 // >, <, >=, <=
 // ==, ===, !=, !==
 
-console.log(1 == 1); // true
-console.log(1 === 1); // true
-console.log(1 == "1"); // true
-console.log(1 === "1"); // false
-console.log(1 != 1); // false
-console.log(1 != "1"); // false
-console.log(1 !== "1"); // true
+// console.log(1 == 1); // true
+// console.log(1 === 1); // true
+// console.log(1 == "1"); // true
+// console.log(1 === "1"); // false
+// console.log(1 != 1); // false
+// console.log(1 != "1"); // false
+// console.log(1 !== "1"); // true
 
 //--------------------- Сoncatenation ---------------------//
 
-const greeting = "Hey " + "baby";
+// const greeting = "Hey " + "baby";
 
-console.log(greeting);
+// console.log(greeting);
+
+//--------------------- 6th JS lesson ---------------------//
+
+//--------------------- Сoncatenation ---------------------//
+
+let value = 10;
+
+// value = value + ""; // convert number to string
+
+// console.log(value, typeof value);
+
+// value = `${value} Ramey`; // casting a number to a variable
+
+// console.log(value, typeof value);
+
+// value = value.toString(); // convert number to string
+
+// console.log(value, typeof value);
+
+value = Number(value);
+
+console.log(value);
+
+value = +value;
+
+console.log(value, typeof value);
