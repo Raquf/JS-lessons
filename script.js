@@ -221,9 +221,7 @@ console.log(info); */
 
 //--------------------- 6th JS lesson ---------------------//
 
-//--------------------- Сoncatenation ---------------------//
-
-let value = 10;
+// let value = 10;
 
 // value = value + ""; // convert number to string
 
@@ -237,10 +235,146 @@ let value = 10;
 
 // console.log(value, typeof value);
 
-value = Number(value);
+// value = Number(value); // convert string  to number
 
-console.log(value);
+// console.log(value);
 
-value = +value;
+// value = +value; // convert string  to number (innar number)
 
-console.log(value, typeof value);
+// console.log(value, typeof value);
+
+// value = parseInt(value); //  convert string  to number (with help "Parse")
+
+// console.log(value);
+
+// value = "10.33";
+
+// value = parseInt(value); // convert string  to  number (with help "Parse")
+
+// console.log(value);
+
+// value = "10.33";
+
+// value = parseFloat(value); // convert string  to float number (with help "Parse")
+
+// console.log(value);
+
+// value = 10.12345;
+
+// value = value.toFixed(2);
+
+// value = parseFloat((10.1213234).toFixed(5));
+
+// console.log(value);
+
+//--------------------- Сasting ---------------------//
+
+// value = 10 + "10";
+
+// console.log(value);
+
+// value = 10 - "10";
+
+// console.log(value);
+
+// value = 10 * "10";
+
+// console.log(value);
+
+// value = 10 / "10";
+
+// console.log(value);
+
+// value = 10 % "10";
+
+// console.log(value);
+
+// value = 10 + true;
+
+// console.log(value);
+
+// value = 10 + false;
+
+// console.log(value);
+
+// value = 10 + null;
+
+// console.log(value);
+
+// value = 10 + undefined;
+
+// console.log(value);
+
+// value = 10 + NaN;
+
+// console.log(value);
+
+// value = 10 + [];
+
+// console.log(value);
+
+// value = 10 + {};
+
+// console.log(value);
+
+// value = true + true;
+
+// console.log(value);
+
+// value = true + false;
+
+// console.log(value);
+
+// value = false + false;
+
+// console.log(value);
+
+//--------------------- == & === ---------------------//
+
+let res;
+
+res = true == true;
+
+console.log(res);
+
+res = true === true; // more stromg
+
+console.log(res);
+
+res = true == 1;
+
+console.log(res);
+
+res = true === 1;
+
+console.log(res);
+
+res = false == 0;
+
+console.log(res);
+
+res = false === 0;
+
+console.log(res);
+
+res = 1 == "1";
+
+console.log(res);
+
+res = 1 === "1";
+
+console.log(res);
+
+res = null == undefined;
+
+console.log(res);
+
+res = null === undefined;
+
+console.log(res);
+
+res = "" == [];
+
+console.log(res);
+
+res = "" === [];
