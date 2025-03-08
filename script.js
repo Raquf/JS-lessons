@@ -331,50 +331,106 @@ console.log(info); */
 
 //--------------------- == & === ---------------------//
 
-let res;
+// let res;
 
-res = true == true;
+// res = true == true;
 
-console.log(res);
+// console.log(res);
 
-res = true === true; // more stromg
+// res = true === true; // more stromg
 
-console.log(res);
+// console.log(res);
 
-res = true == 1;
+// res = true == 1;
 
-console.log(res);
+// console.log(res);
 
-res = true === 1;
+// res = true === 1;
 
-console.log(res);
+// console.log(res);
 
-res = false == 0;
+// res = false == 0;
 
-console.log(res);
+// console.log(res);
 
-res = false === 0;
+// res = false === 0;
 
-console.log(res);
+// console.log(res);
 
-res = 1 == "1";
+// res = 1 == "1";
 
-console.log(res);
+// console.log(res);
 
-res = 1 === "1";
+// res = 1 === "1";
 
-console.log(res);
+// console.log(res);
 
-res = null == undefined;
+// res = null == undefined;
 
-console.log(res);
+// console.log(res);
 
-res = null === undefined;
+// res = null === undefined;
 
-console.log(res);
+// console.log(res);
 
-res = "" == [];
+// res = "" == [];
 
-console.log(res);
+// console.log(res);
 
-res = "" === [];
+// res = "" === [];
+
+//--------------------- 7th JS lesson (If, else construct. Ternary operator) ---------------------//
+
+//--------------------- Сonditional branches - If statements
+
+// const age = 19;
+
+// if (age >= 18) {
+//   console.log("Come in please!!!");
+// } else {
+//   console.log("Come out!!!");
+// }
+
+if (0) {
+} // false
+
+if (1) {
+} // true
+
+if ("0") {
+} // true
+
+if ("") {
+} // false
+
+if (" ") {
+} //true
+
+// const result = prompt("How are you?");
+
+// if (result === "Good") {
+//   alert("You are well done!");
+// } else if (result === "Normal") {
+//   alert("All right");
+// } else if (result === "Bad") {
+//   alert("What is happened?");
+// } else {
+//   alert("Never give up!!!");
+
+//--------------------- Ternary operator
+
+const myAge = 36;
+
+// if (myAge < 18) {
+//   alert("This is man so little");
+// } else if (myAge === 35) {
+//   alert("Yes, it's true!!!");
+// } else if (myAge > 35) {
+//   alert("He is very old");
+// }
+
+// "If" - ?
+// "else" - :
+//
+
+// myAge < 18 ? alert("This is man so little") : alert("Yes, it's true");
