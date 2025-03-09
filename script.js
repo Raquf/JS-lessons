@@ -419,7 +419,7 @@ if (" ") {
 
 //--------------------- Ternary operator
 
-const myAge = 36;
+// const myAge = 36;
 
 // if (myAge < 18) {
 //   alert("This is man so little");
@@ -434,3 +434,65 @@ const myAge = 36;
 //
 
 // myAge < 18 ? alert("This is man so little") : alert("Yes, it's true");
+
+//--------------------- 8th JS lesson Logical operators. ||, &&, ??, !, !! ---------------------//
+
+// || - or
+
+let a;
+
+a = 1 || 2; // 1
+a = 0 || 2; // 2
+a = false || false || true; // true
+a = null || undefined || 1; // 1
+
+console.log(a);
+
+const age = 35;
+
+if (age > 30 || age < 35) {
+  console.log("You are accepted");
+}
+
+// && - and
+
+let b;
+
+if (0 && 5) {
+  console.log("No one will see this message."); // if(false)
+}
+
+b = 0 && 5; // 0
+b = true && "100%";
+
+if (true && "100%") {
+  console.log("Evereone will this message"); // if(true)
+}
+
+const check = 10 && 0 && 20 && "Hello";
+
+console.log(check);
+
+const hour = 10;
+const minutes = 35;
+
+if (hour === 10 && minutes > 30) {
+  console.log("Come in");
+}
+
+// !- negative
+// !! - double meaning
+
+let c;
+
+c = !"Hello"; // false
+c = !!"Hello"; // true
+
+// ??
+
+let d;
+
+d = 1 ?? 2;
+d = false ?? null;
+
+console.log(d);

@@ -97,3 +97,12 @@ num > 0
 // let secondWord = "Busket";
 
 // console.log(firstWord.localeCompare(secondWord));
+
+console.log(null || 0 || 1 || undefined);
+
+console.log(5 || null || 10);
+console.log(null || (1 && 3) || 4);
+
+if (-1 || 0) console.log("one");
+if (-1 || 1) console.log("two");
+if (null || (-1 && 1)) console.log("three");
