@@ -22,7 +22,7 @@ if ('0') {
 
 */
 
-const num = prompt("Write number___");
+//const num = prompt("Write number___");
 
 /*
  if (num > 0) {
@@ -43,10 +43,57 @@ const num = prompt("Write number___");
 -1 if the value is less than zero,
  0 if the value is zero.
 
-*/
+
 
 num > 0
   ? console.log("It's number more than 0")
   : num === 0
   ? console.log("It's number equal 0")
   : console.log("It's number less 0");
+*/
+
+//---------------------- Task 4
+
+/* Given a number. Check if it is negative or not. Output this information to the console. */
+
+// let num = -1;
+
+// if (num > 0) {
+//   console.log("It's number positive");
+// } else {
+//   console.log("It's number negative");
+// }
+
+//---------------------- Task 5
+
+/* Given a string, output the length of this string to the console. */
+
+// let text = "Hey baby!!!";
+
+// console.log(text.length);
+
+//---------------------- Task 6
+
+/* Given a string, print the last character of the string to the console.*/
+
+// let newText = "Hello Ramey)";
+// let stringLenght = newText.length;
+
+// console.log(newText.charAt(stringLenght - 1));
+
+// let myNum = 31;
+
+// if (myNum % 2 === 0) {
+//   console.log("It's number even");
+// } else {
+//   console.log("It's number odd");
+// }
+
+//---------------------- Task 7
+
+/* You are given two words. Check that the first letters of these words match. */
+
+// let firstWord = "Bike";
+// let secondWord = "Busket";
+
+// console.log(firstWord.localeCompare(secondWord));
