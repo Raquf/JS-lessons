@@ -110,5 +110,30 @@ num > 0
 //---------------------- Task 8
 
 let value = NaN;
-value &&= 10;
-console.log(value);
+// value &&= 10;
+// console.log(value); // NaN
+
+// value ||= 20;
+// console.log(value); // 20
+
+// value &&= 30;
+// console.log(value); // NaN
+
+// value ||= 40;
+// console.log(value); // 40
+
+// let city = null;
+
+// city ??= "Berlin";
+// console.log(city);
+
+// city = null;
+// console.log(city);
+
+// city = "Koln";
+// console.log(city);
+
+// city = "Hamburg";
+// console.log(city);
+
+console.log(undefined ?? NaN ?? null ?? "" ?? " ");
