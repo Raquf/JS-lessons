@@ -439,60 +439,86 @@ if (" ") {
 
 // || - or
 
-let a;
+// let a;
 
-a = 1 || 2; // 1
-a = 0 || 2; // 2
-a = false || false || true; // true
-a = null || undefined || 1; // 1
+// a = 1 || 2; // 1
+// a = 0 || 2; // 2
+// a = false || false || true; // true
+// a = null || undefined || 1; // 1
 
-console.log(a);
+// console.log(a);
 
-const age = 35;
+// const age = 35;
 
-if (age > 30 || age < 35) {
-  console.log("You are accepted");
-}
+// if (age > 30 || age < 35) {
+//   console.log("You are accepted");
+// }
 
 // && - and
 
-let b;
+// let b;
 
-if (0 && 5) {
-  console.log("No one will see this message."); // if(false)
-}
+// if (0 && 5) {
+//   console.log("No one will see this message."); // if(false)
+// }
 
-b = 0 && 5; // 0
-b = true && "100%";
+// b = 0 && 5; // 0
+// b = true && "100%";
 
-if (true && "100%") {
-  console.log("Evereone will this message"); // if(true)
-}
+// if (true && "100%") {
+//   console.log("Evereone will this message"); // if(true)
+// }
 
-const check = 10 && 0 && 20 && "Hello";
+// const check = 10 && 0 && 20 && "Hello";
 
-console.log(check);
+// console.log(check);
 
-const hour = 10;
-const minutes = 35;
+// const hour = 10;
+// const minutes = 35;
 
-if (hour === 10 && minutes > 30) {
-  console.log("Come in");
-}
+// if (hour === 10 && minutes > 30) {
+//   console.log("Come in");
+// }
 
 // !- negative
 // !! - double meaning
 
-let c;
+// let c;
 
-c = !"Hello"; // false
-c = !!"Hello"; // true
+// c = !"Hello"; // false
+// c = !!"Hello"; // true
 
 // ??
 
-let d;
+// let d;
 
-d = 1 ?? 2;
-d = false ?? null;
+// d = 1 ?? 2;
+// d = false ?? null;
 
-console.log(d);
+// console.log(d);
+
+//--------------------- 9th JS lesson Logical assignment. ||=, &&=, ??= ---------------------//
+
+// ||=
+
+// let a = null;
+// a = a || 20;
+// a ||= 20;
+
+// console.log(a);
+
+// // &&=
+
+// let b = 1;
+// b = b && 2;
+// b &&= 2;
+
+// console.log(b);
+
+// // ??=
+
+// let c = undefined;
+// c = c ?? 2;
+// c ??= 2;
+
+// console.log(c);
