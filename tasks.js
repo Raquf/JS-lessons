@@ -136,4 +136,4 @@ let value = NaN;
 // city = "Hamburg";
 // console.log(city);
 
-console.log(undefined ?? NaN ?? null ?? "" ?? " ");
+// console.log(undefined ?? NaN ?? null ?? "" ?? " ");

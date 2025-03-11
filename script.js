@@ -522,3 +522,9 @@ if (" ") {
 // c ??= 2;
 
 // console.log(c);
+
+//--------------------- 10th JS lesson Primitives as objects, methods of numbers ---------------------//
+
+let x = 10;
+x = Number(100);
+console.log(x);
