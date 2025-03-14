@@ -137,3 +137,10 @@ let value = NaN;
 // console.log(city);
 
 // console.log(undefined ?? NaN ?? null ?? "" ?? " ");
+
+// let count = 1;
+
+// //count = count + 2;
+// count += 2;
+
+// console.log(count);
