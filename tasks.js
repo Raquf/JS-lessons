@@ -132,7 +132,7 @@ let value = NaN;
 
 // city = "Koln";
 // console.log(city);
-/////
+
 // console.log(city);
 
 // console.log(undefined ?? NaN ?? null ?? "" ?? " ");
